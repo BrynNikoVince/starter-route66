@@ -53,5 +53,8 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+// Rule for Kilo link
+$route['show/(:any)'] = 'welcome/show/$1';
+
 // New rule for foxtrot route
 $route['foxtrot'] = 'tango';
