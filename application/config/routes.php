@@ -58,3 +58,6 @@ $route['show/(:any)'] = 'welcome/show/$1';
 
 // New rule for foxtrot route
 $route['foxtrot'] = 'tango';
+
+
+$route['i/(:any)'] = 'golf';
