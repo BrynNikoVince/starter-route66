@@ -64,4 +64,5 @@ $route['(bananas)/(rule)'] = function($fruit,$verb) {
     return 'golf';
 };
 
-$route['i/(:any)'] = 'golf';
+// Rule for Golf link
+$route['i/(.*)'] = 'golf';
