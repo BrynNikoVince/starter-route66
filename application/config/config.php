@@ -10,11 +10,11 @@ $config['menu_choices'] = array(
         array('name' => 'Charlie', 'link' => '/charlie/brown'),
         array('name' => 'Echo', 'link' => '/echo/must/wehave'),
         array('name' => 'Foxtrot', 'link' => '/foxtrot'),
-        array('name' => 'Golf', 'link' => '#'),
+        array('name' => 'Golf', 'link' => '/i/works'),
         array('name' => 'Hotel', 'link' => '/bananas/rule'),
-        array('name' => 'India', 'link' => '#'),
-        array('name' => 'Juliet', 'link' => '#'),
-        array('name' => 'Kilo', 'link' => '#'),
+        array('name' => 'India', 'link' => '/india'),
+        array('name' => 'Juliet', 'link' => '/juliet'),
+        array('name' => 'Kilo', 'link' => '/show/2'),
         )
     );
 
