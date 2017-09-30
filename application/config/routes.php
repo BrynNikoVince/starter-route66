@@ -59,5 +59,10 @@ $route['show/(:any)'] = 'welcome/show/$1';
 // New rule for foxtrot route
 $route['foxtrot'] = 'tango';
 
+// Rule for banana rule
+$route['(bananas)/(rule)'] = function($fruit,$verb) {
+    return 'golf';
+};
 
+// Rule for Golf link
 $route['i/(.*)'] = 'golf';
