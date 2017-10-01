@@ -52,3 +52,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+// Rule for Kilo link
+$route['show/(:any)'] = 'welcome/show/$1';
+
+// New rule for foxtrot route
+$route['foxtrot'] = 'tango';
+
+// Rule for banana rule
+$route['(bananas)/(rule)'] = function($fruit,$verb) {
+    return 'golf';
+};
+
+// Rule for Golf link
+$route['i/(.*)'] = 'golf';
